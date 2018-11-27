@@ -52,6 +52,7 @@ totalsatu<-0
 
 #iterasi untuk menghitung banyak perubahan lahan 
 #dari suatu lahan menuju lahan lain
+#(dalam kasus ini yaitu banyak perubahan lahan dari sawah menuju lahan lain)
 for(i in 1:length(t)) {
   if (t[i] == 5 & t[i+2] == 1) {
     satusatu <- satusatu +1
