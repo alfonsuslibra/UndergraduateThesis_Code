@@ -4,8 +4,8 @@ dim(tengah)
 
 #plot data                    
 library(ggplot2)
-Kelas_Lahan_05 <-as.factor(sukabumi$kl_2005)
-Kelas_Lahan_10 <- as.factor(sukabumi$kl_2010)
+Kelas_Lahan_05 <-as.factor(tengah$kl_2005)
+Kelas_Lahan_10 <- as.factor(tengah$kl_2010)
 levels(Kelas_Lahan_05) <- list("Hutan"=1,"Ladang"=2,"Perkebunan"=3,
                             "Kawasan Terbangun"=4,
                             "Sawah"=5,"Semak"=6,"Perairan"=7,"Tambak"=8)
